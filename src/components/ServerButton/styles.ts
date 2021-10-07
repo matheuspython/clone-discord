@@ -5,6 +5,7 @@ export const Button = styled.button<Props>`
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  border-radius: 50%;
 
   width: 48px;
   height: 48px;
@@ -14,5 +15,20 @@ export const Button = styled.button<Props>`
   cursor: pointer;
   position: relative;
   
+  > img{
+    width: 24px;
+    height: 24px;
+  }
+  &::before{
+
+  }
+  &::after{
+
+  }
+  transition: border-radius .2s, background-color .2s;
+  &.active, &:hover{
+    border-radius: 16px;
+    background-color: ${props => props.isHome ? 'var(--rocketseat)' : 'var(--discord)'};
+  }
 
   `;
