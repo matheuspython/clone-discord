@@ -61,7 +61,7 @@ export const MicIcon = styled(Mic)`
   }
 `;
 export const HeadphoneIcon = styled(Headset)`
-   height: 20px;
+  height: 20px;
   width: 20px;
 
   color:var(--white);
@@ -73,7 +73,7 @@ export const HeadphoneIcon = styled(Headset)`
   }
 `;
 export const SettingsIcon = styled(Settings)`
-   height: 20px;
+  height: 20px;
   width: 20px;
 
   color:var(--white);
