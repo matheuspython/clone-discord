@@ -1,12 +1,15 @@
 import React from 'react';
 
 import { Grid } from './styles';
+
 import ServerList from '../serverList';
+import ServerName from '../ServerName';
 
 const Layout: React.FC = () => {
   return (
     <Grid>
       <ServerList />
+      <ServerName />
     </Grid>
   );
 }
