@@ -19,12 +19,57 @@ export const Container = styled.div`
     background-color:var(--secondary);
   }
 `;
-export const Role = styled.div`
-  
+export const Role = styled.span`
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight:500;
+  color:var(--gray);
 `;
 export const User = styled.div`
-  
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  padding: 5px;
+  cursor:pointer;
+  background:trasnparent;
+  transition: all.2s;
+  border-radius:4px;
+  &:hover{
+    background:rgba(255,255,255,0.1);
+  }
+  >strong{
+    margin-left:11px;
+    font-weight: 500;
+    color:var(--white);
+    opacity:0.7;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+
+  }
+  >span{
+    margin-left:auto;
+    background-color: var(--discord);
+    color: var(--white);
+    border-radius: 4px;
+    padding: 4px 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+  }
 `;
 export const Avatar = styled.div`
-  
+  flex-shrink: 0;
+
+  width:32px;
+  height:32px;
+
+  border-radius: 50%;
+  background-color: var(--primary);
+
+  &.bot{
+    background-color: var(--mention-detail);
+  }
 `;
