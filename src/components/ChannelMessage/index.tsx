@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Container, Avatar, Message, Header, Content  } from './styles';
+export { Mention } from './styles'
 
 export interface Props {
   author: string;
@@ -18,15 +19,15 @@ const ChannelMessage: React.FC<Props> = ({
   isBot}) => {
   return (
     <Container className={hasMention ? 'mention' : ''}>
-       <Avatar />
+       <Avatar className={isBot ? "bot" : ""} />
        <Message>
          
          <Header>
           <strong>{author}</strong>
           {isBot && <span>Bot</span>}
+          <time>{date}</time>
          </Header>
 
-          <time>{date}</time>
 
          <Content>{content}</Content>
        </Message>
