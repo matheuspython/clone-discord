@@ -16,7 +16,7 @@
 ## passo a passo para rodar no seu dispositivo
  - baixar o node https://nodejs.org/en/
  - baixar o git https://git-scm.com/
- - clonar este repositorio no seu dispositivo via terminal com o comando `git clone https://github.com/matheuspython/formulario-com-react`
+ - clonar este repositorio no seu dispositivo via terminal com o comando `git clone https://github.com/matheuspython/clone-discord`
  - entre no diretorio do repositorio com o comando `cd formulario-com-react`
  - execute o comando `npm i`
  - execute o comando `npm start`
