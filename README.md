@@ -21,4 +21,4 @@
  - execute o comando `npm i`
  - execute o comando `npm start`
  - apos carregar digite a seguinte url no seu browser http://localhost:3000/
- - e pronto ;)
+ - e pronto o clone do discord esta funcionando em sua maquina
